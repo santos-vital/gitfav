@@ -1,7 +1,7 @@
 import { GithubUser } from "./GithubUser.js"; 
 
-// classe que vai conter a lógica dos dados 
-// como os dados serão estruturados
+// class that will contain the data logic
+// how the data will be structured
 export class Favorites {
   constructor(root) {
     this.root = document.querySelector(root);
@@ -48,7 +48,7 @@ export class Favorites {
   }
 }
 
-//classe que vai criar a visualização e eventos do HTML
+// class that will create the HTML view and events
 export class FavoritesView extends Favorites {
   constructor(root) {
     super(root)
